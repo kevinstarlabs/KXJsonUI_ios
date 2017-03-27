@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.source_files = 'KXJsonUI_ios/**/*'
-  spec.public_header_files = 'KXJsonUI_ios/**/*.h'
+  spec.source_files = 'KXJsonUI_ios/KXJsonUI_ios/**/*'
+  spec.public_header_files = 'KXJsonUI_ios/Pod/PublicHeaders/**/*.h'
   spec.frameworks = 'UIKit', 'QuartzCore'
   spec.requires_arc = true
 end
