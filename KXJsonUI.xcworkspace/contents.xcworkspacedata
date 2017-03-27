@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:KXJsonUI_ios/KXJsonUI_ios.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KXJsonUIDemo/KXJsonUIDemo.xcodeproj">
+   </FileRef>
+</Workspace>
