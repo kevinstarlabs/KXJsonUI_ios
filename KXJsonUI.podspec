@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, '8.0'
   spec.ios.deployment_target = '8.0'
 
-  spec.source = { :git => "https://github.com/kxzen/KXJsonUI_ios.git", :tag => "v0.8.0" }
+  spec.source = { :git => "https://github.com/kxzen/KXJsonUI_ios.git", :tag => spec.version }
 
   spec.requires_arc = true
 
