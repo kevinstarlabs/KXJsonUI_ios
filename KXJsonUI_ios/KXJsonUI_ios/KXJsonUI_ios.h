@@ -22,6 +22,7 @@
 
 #import <UIKit/UIKit.h>
 
+#ifdef USE_KXJSONUI_AS_A_FRAMEWORK
 //! Project version number for KXJsonUI_ios.
 FOUNDATION_EXPORT double KXJsonUI_iosVersionNumber;
 
@@ -31,4 +32,7 @@ FOUNDATION_EXPORT const unsigned char KXJsonUI_iosVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <KXJsonUI_ios/PublicHeader.h>
 
 #import <KXJsonUI_ios/KXBuilder.h>
+#else
+#import "KXBuilder.h"
+#endif
 
