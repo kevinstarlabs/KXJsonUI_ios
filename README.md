@@ -5,8 +5,8 @@ KXJsonUI
 [![Pod Platform](http://img.shields.io/cocoapods/p/KXJsonUI.svg?style=flat)](http://cocoadocs.org/docsets/KXJsonUI)
 [![Pod License](http://img.shields.io/cocoapods/l/KXJsonUI.svg?style=flat)](http://opensource.org/licenses/MIT)
 
-KXJsonUI is a JSON layout framework for iOS, which enables you contstruct your user interfaces using JSON files. You can build your UI without using interface builder. KXJsonUI utilizes the similar concepts from Android layout managment. With this framework, all UI layout can be manipulated using 
-`KXLinearLayout` and `KXRelativeLayout` classes.
+KXJsonUI is a JSON layout framework for iOS, which enables you contstruct your user interfaces using JSON files. You can build your UI without using interface builder. KXJsonUI utilizes the similar concepts from Android layout managment. With this framework, all UI layout can be arranged using 
+**KXLinearLayout** and **KXRelativeLayout** classes.
 
 # Features
 - Create and manage UIViews using JSON text files
@@ -44,7 +44,7 @@ pod 'KXJsonUI'
 ## Load UI from a JSON file
 
 Load UI layout from a JSON file is easy.
-Asume the JSON file you are going to load is named `helloworld.json`. Also, please ensure that the file has been added into the project.
+Asume the JSON file you are going to load is named **helloworld.json**. Also, please ensure that the file has been added into the project.
 
 `KXBuilder` is used to parse and build the UI layout from a JSON file.
 

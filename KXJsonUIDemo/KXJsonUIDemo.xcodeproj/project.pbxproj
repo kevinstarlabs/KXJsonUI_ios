@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0A05373D1E83BB1C00BD8E30 /* KXJsonUI_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA54D161E83B2A8004D7A7F /* KXJsonUI_ios.framework */; };
 		0A05373E1E83BB1C00BD8E30 /* KXJsonUI_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA54D161E83B2A8004D7A7F /* KXJsonUI_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0A0537441E83BB5E00BD8E30 /* sample1.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A0537421E83BB5E00BD8E30 /* sample1.js */; };
+		0A0537441E83BB5E00BD8E30 /* sample1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A0537421E83BB5E00BD8E30 /* sample1.json */; };
 		0A507AD31E88B3FB0091C0F1 /* Example5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AD21E88B3FB0091C0F1 /* Example5ViewController.m */; };
-		0A507AD51E88B81C0091C0F1 /* sample5.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AD41E88B81C0091C0F1 /* sample5.js */; };
+		0A507AD51E88B81C0091C0F1 /* sample5.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AD41E88B81C0091C0F1 /* sample5.json */; };
 		0A507ADA1E88BA760091C0F1 /* Example7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AD91E88BA760091C0F1 /* Example7ViewController.m */; };
 		0A507ADD1E88BAF40091C0F1 /* Example7CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507ADC1E88BAF40091C0F1 /* Example7CollectionViewCell.m */; };
 		0A507AE71E88BE880091C0F1 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AE01E88BE880091C0F1 /* icon1.png */; };
@@ -21,26 +21,26 @@
 		0A507AEB1E88BE880091C0F1 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AE41E88BE880091C0F1 /* icon5.png */; };
 		0A507AEC1E88BE880091C0F1 /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AE51E88BE880091C0F1 /* icon6.png */; };
 		0A507AED1E88BE880091C0F1 /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AE61E88BE880091C0F1 /* icon7.png */; };
-		0A507AF01E88BF880091C0F1 /* sample7_cell.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AEE1E88BF880091C0F1 /* sample7_cell.js */; };
-		0A507AF11E88BF880091C0F1 /* sample7.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AEF1E88BF880091C0F1 /* sample7.js */; };
+		0A507AF01E88BF880091C0F1 /* sample7_cell.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AEE1E88BF880091C0F1 /* sample7_cell.json */; };
+		0A507AF11E88BF880091C0F1 /* sample7.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507AEF1E88BF880091C0F1 /* sample7.json */; };
 		0A507B011E8947920091C0F1 /* Example8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507B001E8947920091C0F1 /* Example8ViewController.m */; };
-		0A507B031E894B7D0091C0F1 /* sample8.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B021E894B7D0091C0F1 /* sample8.js */; };
+		0A507B031E894B7D0091C0F1 /* sample8.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B021E894B7D0091C0F1 /* sample8.json */; };
 		0A507B071E8950A30091C0F1 /* Example9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507B061E8950A30091C0F1 /* Example9ViewController.m */; };
-		0A507B0A1E8957EB0091C0F1 /* sample9_layout1.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B081E8957EB0091C0F1 /* sample9_layout1.js */; };
-		0A507B0B1E8957EB0091C0F1 /* sample9_layout2.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B091E8957EB0091C0F1 /* sample9_layout2.js */; };
+		0A507B0A1E8957EB0091C0F1 /* sample9_layout1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B081E8957EB0091C0F1 /* sample9_layout1.json */; };
+		0A507B0B1E8957EB0091C0F1 /* sample9_layout2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A507B091E8957EB0091C0F1 /* sample9_layout2.json */; };
 		0A6474721E86B3F600B136CF /* Example1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A64746E1E86B3F600B136CF /* Example1ViewController.m */; };
 		0A6474731E86B3F600B136CF /* Example6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6474711E86B3F600B136CF /* Example6ViewController.m */; };
 		0A6474761E86B42100B136CF /* Example6TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6474751E86B42100B136CF /* Example6TableViewCell.m */; };
-		0A64747C1E86BE7600B136CF /* sample6_cell.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A64747B1E86BE7600B136CF /* sample6_cell.js */; };
+		0A64747C1E86BE7600B136CF /* sample6_cell.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A64747B1E86BE7600B136CF /* sample6_cell.json */; };
 		0A847DDD1E87CCE500AE55F6 /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DDA1E87CCE500AE55F6 /* p1.jpg */; };
 		0A847DDE1E87CCE500AE55F6 /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DDB1E87CCE500AE55F6 /* p2.jpg */; };
 		0A847DDF1E87CCE500AE55F6 /* p3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DDC1E87CCE500AE55F6 /* p3.jpg */; };
 		0A847DE31E87D86500AE55F6 /* Example2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A847DE21E87D86500AE55F6 /* Example2ViewController.m */; };
-		0A847DE51E87DB7E00AE55F6 /* sample2.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DE41E87DB7E00AE55F6 /* sample2.js */; };
+		0A847DE51E87DB7E00AE55F6 /* sample2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DE41E87DB7E00AE55F6 /* sample2.json */; };
 		0A847DE91E87EC3600AE55F6 /* Example3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A847DE81E87EC3600AE55F6 /* Example3ViewController.m */; };
-		0A847DEB1E87EC6400AE55F6 /* sample3.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DEA1E87EC6400AE55F6 /* sample3.js */; };
+		0A847DEB1E87EC6400AE55F6 /* sample3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DEA1E87EC6400AE55F6 /* sample3.json */; };
 		0A847DEF1E87F49C00AE55F6 /* Example4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A847DEE1E87F49C00AE55F6 /* Example4ViewController.m */; };
-		0A847DF11E87F4B700AE55F6 /* sample4.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DF01E87F4B700AE55F6 /* sample4.js */; };
+		0A847DF11E87F4B700AE55F6 /* sample4.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A847DF01E87F4B700AE55F6 /* sample4.json */; };
 		0AA54C641E83A27C004D7A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54C631E83A27C004D7A7F /* main.m */; };
 		0AA54C671E83A27C004D7A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54C661E83A27C004D7A7F /* AppDelegate.m */; };
 		0AA54C6A1E83A27C004D7A7F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54C691E83A27C004D7A7F /* FirstViewController.m */; };
@@ -64,10 +64,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A0537421E83BB5E00BD8E30 /* sample1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample1.js; sourceTree = "<group>"; };
+		0A0537421E83BB5E00BD8E30 /* sample1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample1.json; sourceTree = "<group>"; };
 		0A507AD11E88B3FB0091C0F1 /* Example5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example5ViewController.h; sourceTree = "<group>"; };
 		0A507AD21E88B3FB0091C0F1 /* Example5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example5ViewController.m; sourceTree = "<group>"; };
-		0A507AD41E88B81C0091C0F1 /* sample5.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample5.js; sourceTree = "<group>"; };
+		0A507AD41E88B81C0091C0F1 /* sample5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample5.json; sourceTree = "<group>"; };
 		0A507AD61E88B8B00091C0F1 /* ExampleViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ExampleViewControllers.h; path = ExampleViewControllers/ExampleViewControllers.h; sourceTree = "<group>"; };
 		0A507AD81E88BA760091C0F1 /* Example7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example7ViewController.h; sourceTree = "<group>"; };
 		0A507AD91E88BA760091C0F1 /* Example7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example7ViewController.m; sourceTree = "<group>"; };
@@ -80,34 +80,34 @@
 		0A507AE41E88BE880091C0F1 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
 		0A507AE51E88BE880091C0F1 /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
 		0A507AE61E88BE880091C0F1 /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
-		0A507AEE1E88BF880091C0F1 /* sample7_cell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample7_cell.js; sourceTree = "<group>"; };
-		0A507AEF1E88BF880091C0F1 /* sample7.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample7.js; sourceTree = "<group>"; };
+		0A507AEE1E88BF880091C0F1 /* sample7_cell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample7_cell.json; sourceTree = "<group>"; };
+		0A507AEF1E88BF880091C0F1 /* sample7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample7.json; sourceTree = "<group>"; };
 		0A507AFF1E8947920091C0F1 /* Example8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example8ViewController.h; sourceTree = "<group>"; };
 		0A507B001E8947920091C0F1 /* Example8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example8ViewController.m; sourceTree = "<group>"; };
-		0A507B021E894B7D0091C0F1 /* sample8.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample8.js; sourceTree = "<group>"; };
+		0A507B021E894B7D0091C0F1 /* sample8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample8.json; sourceTree = "<group>"; };
 		0A507B051E8950A30091C0F1 /* Example9ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example9ViewController.h; sourceTree = "<group>"; };
 		0A507B061E8950A30091C0F1 /* Example9ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example9ViewController.m; sourceTree = "<group>"; };
-		0A507B081E8957EB0091C0F1 /* sample9_layout1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample9_layout1.js; sourceTree = "<group>"; };
-		0A507B091E8957EB0091C0F1 /* sample9_layout2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample9_layout2.js; sourceTree = "<group>"; };
+		0A507B081E8957EB0091C0F1 /* sample9_layout1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample9_layout1.json; sourceTree = "<group>"; };
+		0A507B091E8957EB0091C0F1 /* sample9_layout2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample9_layout2.json; sourceTree = "<group>"; };
 		0A64746D1E86B3F600B136CF /* Example1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1ViewController.h; sourceTree = "<group>"; };
 		0A64746E1E86B3F600B136CF /* Example1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example1ViewController.m; sourceTree = "<group>"; };
 		0A6474701E86B3F600B136CF /* Example6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example6ViewController.h; sourceTree = "<group>"; };
 		0A6474711E86B3F600B136CF /* Example6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example6ViewController.m; sourceTree = "<group>"; };
 		0A6474741E86B42100B136CF /* Example6TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example6TableViewCell.h; sourceTree = "<group>"; };
 		0A6474751E86B42100B136CF /* Example6TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example6TableViewCell.m; sourceTree = "<group>"; };
-		0A64747B1E86BE7600B136CF /* sample6_cell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample6_cell.js; sourceTree = "<group>"; };
+		0A64747B1E86BE7600B136CF /* sample6_cell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample6_cell.json; sourceTree = "<group>"; };
 		0A847DDA1E87CCE500AE55F6 /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
 		0A847DDB1E87CCE500AE55F6 /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
 		0A847DDC1E87CCE500AE55F6 /* p3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpg; sourceTree = "<group>"; };
 		0A847DE11E87D86500AE55F6 /* Example2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2ViewController.h; sourceTree = "<group>"; };
 		0A847DE21E87D86500AE55F6 /* Example2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2ViewController.m; sourceTree = "<group>"; };
-		0A847DE41E87DB7E00AE55F6 /* sample2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample2.js; sourceTree = "<group>"; };
+		0A847DE41E87DB7E00AE55F6 /* sample2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample2.json; sourceTree = "<group>"; };
 		0A847DE71E87EC3600AE55F6 /* Example3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example3ViewController.h; sourceTree = "<group>"; };
 		0A847DE81E87EC3600AE55F6 /* Example3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example3ViewController.m; sourceTree = "<group>"; };
-		0A847DEA1E87EC6400AE55F6 /* sample3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample3.js; sourceTree = "<group>"; };
+		0A847DEA1E87EC6400AE55F6 /* sample3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample3.json; sourceTree = "<group>"; };
 		0A847DED1E87F49C00AE55F6 /* Example4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example4ViewController.h; sourceTree = "<group>"; };
 		0A847DEE1E87F49C00AE55F6 /* Example4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example4ViewController.m; sourceTree = "<group>"; };
-		0A847DF01E87F4B700AE55F6 /* sample4.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sample4.js; sourceTree = "<group>"; };
+		0A847DF01E87F4B700AE55F6 /* sample4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample4.json; sourceTree = "<group>"; };
 		0AA54C5F1E83A27C004D7A7F /* KXJsonUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KXJsonUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA54C631E83A27C004D7A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AA54C651E83A27C004D7A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,17 +138,17 @@
 			children = (
 				0A507ADF1E88BE7C0091C0F1 /* Icons */,
 				0A507ADE1E88BE6E0091C0F1 /* Pictures */,
-				0A0537421E83BB5E00BD8E30 /* sample1.js */,
-				0A847DE41E87DB7E00AE55F6 /* sample2.js */,
-				0A847DEA1E87EC6400AE55F6 /* sample3.js */,
-				0A847DF01E87F4B700AE55F6 /* sample4.js */,
-				0A507AD41E88B81C0091C0F1 /* sample5.js */,
-				0A64747B1E86BE7600B136CF /* sample6_cell.js */,
-				0A507AEE1E88BF880091C0F1 /* sample7_cell.js */,
-				0A507AEF1E88BF880091C0F1 /* sample7.js */,
-				0A507B021E894B7D0091C0F1 /* sample8.js */,
-				0A507B081E8957EB0091C0F1 /* sample9_layout1.js */,
-				0A507B091E8957EB0091C0F1 /* sample9_layout2.js */,
+				0A0537421E83BB5E00BD8E30 /* sample1.json */,
+				0A847DE41E87DB7E00AE55F6 /* sample2.json */,
+				0A847DEA1E87EC6400AE55F6 /* sample3.json */,
+				0A847DF01E87F4B700AE55F6 /* sample4.json */,
+				0A507AD41E88B81C0091C0F1 /* sample5.json */,
+				0A64747B1E86BE7600B136CF /* sample6_cell.json */,
+				0A507AEE1E88BF880091C0F1 /* sample7_cell.json */,
+				0A507AEF1E88BF880091C0F1 /* sample7.json */,
+				0A507B021E894B7D0091C0F1 /* sample8.json */,
+				0A507B081E8957EB0091C0F1 /* sample9_layout1.json */,
+				0A507B091E8957EB0091C0F1 /* sample9_layout2.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -403,24 +403,24 @@
 				0A507AEA1E88BE880091C0F1 /* icon4.png in Resources */,
 				0A507AE91E88BE880091C0F1 /* icon3.png in Resources */,
 				0A507AE71E88BE880091C0F1 /* icon1.png in Resources */,
-				0A847DF11E87F4B700AE55F6 /* sample4.js in Resources */,
+				0A847DF11E87F4B700AE55F6 /* sample4.json in Resources */,
 				0A507AEC1E88BE880091C0F1 /* icon6.png in Resources */,
 				0A507AE81E88BE880091C0F1 /* icon2.png in Resources */,
 				0A507AED1E88BE880091C0F1 /* icon7.png in Resources */,
-				0A0537441E83BB5E00BD8E30 /* sample1.js in Resources */,
-				0A507B0A1E8957EB0091C0F1 /* sample9_layout1.js in Resources */,
+				0A0537441E83BB5E00BD8E30 /* sample1.json in Resources */,
+				0A507B0A1E8957EB0091C0F1 /* sample9_layout1.json in Resources */,
 				0A847DDE1E87CCE500AE55F6 /* p2.jpg in Resources */,
-				0A507B0B1E8957EB0091C0F1 /* sample9_layout2.js in Resources */,
-				0A847DEB1E87EC6400AE55F6 /* sample3.js in Resources */,
+				0A507B0B1E8957EB0091C0F1 /* sample9_layout2.json in Resources */,
+				0A847DEB1E87EC6400AE55F6 /* sample3.json in Resources */,
 				0A507AEB1E88BE880091C0F1 /* icon5.png in Resources */,
 				0AA54D1D1E83B746004D7A7F /* Launch Screen.storyboard in Resources */,
-				0A507AF11E88BF880091C0F1 /* sample7.js in Resources */,
-				0A507AD51E88B81C0091C0F1 /* sample5.js in Resources */,
-				0A507AF01E88BF880091C0F1 /* sample7_cell.js in Resources */,
+				0A507AF11E88BF880091C0F1 /* sample7.json in Resources */,
+				0A507AD51E88B81C0091C0F1 /* sample5.json in Resources */,
+				0A507AF01E88BF880091C0F1 /* sample7_cell.json in Resources */,
 				0AA54C721E83A27C004D7A7F /* Assets.xcassets in Resources */,
-				0A64747C1E86BE7600B136CF /* sample6_cell.js in Resources */,
-				0A847DE51E87DB7E00AE55F6 /* sample2.js in Resources */,
-				0A507B031E894B7D0091C0F1 /* sample8.js in Resources */,
+				0A64747C1E86BE7600B136CF /* sample6_cell.json in Resources */,
+				0A847DE51E87DB7E00AE55F6 /* sample2.json in Resources */,
+				0A507B031E894B7D0091C0F1 /* sample8.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

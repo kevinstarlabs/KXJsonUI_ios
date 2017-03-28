@@ -37,7 +37,7 @@
     if (self) {
         self.builder = [[KXBuilder alloc] init];
         
-        if( [self.builder loadFileWithName: @"sample7_cell.js"] ){
+        if( [self.builder loadFileWithName: @"sample7_cell.json"] ){
             [self.builder buildLayoutInView:self.contentView];
         }
     }

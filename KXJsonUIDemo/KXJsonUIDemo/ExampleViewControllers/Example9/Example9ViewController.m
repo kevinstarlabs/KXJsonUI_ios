@@ -29,7 +29,7 @@
     self.title = NSStringFromClass([self class]);
     self.builder = [[KXBuilder alloc] init];
     
-    self.currentLayoutFileName = @"sample9_layout1.js";
+    self.currentLayoutFileName = @"sample9_layout1.json";
     
     if( [self.builder loadFileWithName: self.currentLayoutFileName] ){
         [self.builder buildLayoutInView:self.view];
@@ -43,10 +43,10 @@
 
 -(void) button1_onClick{
     
-    if( [self.currentLayoutFileName isEqualToString:@"sample9_layout1.js"] ){
-        self.currentLayoutFileName = @"sample9_layout2.js";
+    if( [self.currentLayoutFileName isEqualToString:@"sample9_layout1.json"] ){
+        self.currentLayoutFileName = @"sample9_layout2.json";
     }else{
-        self.currentLayoutFileName = @"sample9_layout1.js";
+        self.currentLayoutFileName = @"sample9_layout1.json";
     }
     
     if( [self.builder loadFileWithName: self.currentLayoutFileName] ){

@@ -41,7 +41,7 @@
     
     self.title = NSStringFromClass([self class]);
     self.builder = [[KXBuilder alloc] init];
-    if( [self.builder loadFileWithName: @"sample4.js"] ){
+    if( [self.builder loadFileWithName: @"sample4.json"] ){
         [self.builder buildLayoutInView:self.view];
         [self setupEvents];
     }

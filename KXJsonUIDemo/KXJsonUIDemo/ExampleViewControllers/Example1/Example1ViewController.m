@@ -40,7 +40,7 @@
     // Do any additional setup after loading the view.
     self.title = NSStringFromClass([self class]);
     self.builder = [[KXBuilder alloc] init];
-    if( [self.builder loadFileWithName: @"sample1.js"] ){
+    if( [self.builder loadFileWithName: @"sample1.json"] ){
         [self.builder buildLayoutInView:self.view];
         [self setupEvents];
     }

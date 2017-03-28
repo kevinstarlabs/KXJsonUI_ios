@@ -29,7 +29,7 @@
     
     [self supportUISiwtch];
     
-    if( [self.builder loadFileWithName: @"sample8.js"] ){
+    if( [self.builder loadFileWithName: @"sample8.json"] ){
         [self.builder buildLayoutInView:self.view];
     }
 }
