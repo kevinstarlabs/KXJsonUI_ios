@@ -182,3 +182,5 @@ KXLinearLayout is similar to the LinearLayout in Android. Subviews of a KXLinear
 ## More examples
 
 I'm working on providing more documentation and tutorials. If you want to learn more about this framework, it is recommended to check out the exmaples in the **KXJsonUIDemo** project.
+
+![Screenshot](Documentation/Images/ScreenDemoExamples.gif)
