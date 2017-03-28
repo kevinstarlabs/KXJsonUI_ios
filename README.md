@@ -187,7 +187,7 @@ I'm working on providing more documentation and tutorials. If you want to learn 
 
 ![Screenshot](Documentation/Images/ScreenDemoExamples.gif)
 
-#License
+# License
 
 KXJsonUI is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE.md) file for full details.
 
