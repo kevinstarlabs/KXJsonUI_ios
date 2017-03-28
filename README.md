@@ -1,3 +1,5 @@
+![Banner](Documentation/Images/KXJsonUIBanner.png)
+
 KXJsonUI
 ===
 
@@ -184,3 +186,10 @@ KXLinearLayout is similar to the LinearLayout in Android. Subviews of a KXLinear
 I'm working on providing more documentation and tutorials. If you want to learn more about this framework, it is recommended to check out the exmaples in the **KXJsonUIDemo** project.
 
 ![Screenshot](Documentation/Images/ScreenDemoExamples.gif)
+
+#License
+
+KXJsonUI is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE.md) file for full details.
+
+This framework is currently work-in-progress. 
+If there is any suggestion, I would love to hear from you.
