@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3D3B3C1E8A0864003651E5 /* UIView+KXFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B2E1E8A0864003651E5 /* UIView+KXFrame.h */; };
+		0A3D3B3D1E8A0864003651E5 /* UIView+KXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B2F1E8A0864003651E5 /* UIView+KXFrame.m */; };
+		0A3D3B3E1E8A0864003651E5 /* KXFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B311E8A0864003651E5 /* KXFileHelper.h */; };
+		0A3D3B3F1E8A0864003651E5 /* KXFileHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B321E8A0864003651E5 /* KXFileHelper.mm */; };
+		0A3D3B401E8A0864003651E5 /* KXJSONParseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B331E8A0864003651E5 /* KXJSONParseHelper.h */; };
+		0A3D3B411E8A0864003651E5 /* KXJSONParseHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B341E8A0864003651E5 /* KXJSONParseHelper.mm */; };
+		0A3D3B421E8A0864003651E5 /* KXScreenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B351E8A0864003651E5 /* KXScreenHelper.h */; };
+		0A3D3B431E8A0864003651E5 /* KXScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B361E8A0864003651E5 /* KXScreenHelper.m */; };
+		0A3D3B441E8A0864003651E5 /* KXStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B371E8A0864003651E5 /* KXStringHelper.h */; };
+		0A3D3B451E8A0864003651E5 /* KXStringHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B381E8A0864003651E5 /* KXStringHelper.mm */; };
+		0A3D3B461E8A0864003651E5 /* KXUnitHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B391E8A0864003651E5 /* KXUnitHelper.h */; };
+		0A3D3B471E8A0864003651E5 /* KXUnitHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B3A1E8A0864003651E5 /* KXUnitHelper.mm */; };
+		0A3D3B481E8A0864003651E5 /* KXCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D3B3B1E8A0864003651E5 /* KXCommon.h */; };
 		0A507AF41E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A507AF21E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A507AF51E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AF31E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.m */; };
 		0A507AF81E88EDD50091C0F1 /* KXJsonSharedCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A507AF61E88EDD50091C0F1 /* KXJsonSharedCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,8 +28,6 @@
 		0A507AFD1E88EF870091C0F1 /* KXViewHandlerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AFB1E88EF870091C0F1 /* KXViewHandlerManager.mm */; };
 		0A5BBAA81E84CF1600139615 /* UIColor+KXBrightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5BBAA61E84CF1600139615 /* UIColor+KXBrightness.h */; };
 		0A5BBAA91E84CF1600139615 /* UIColor+KXBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BBAA71E84CF1600139615 /* UIColor+KXBrightness.m */; };
-		0A5BBAAC1E84D2E200139615 /* KXScreenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5BBAAA1E84D2E200139615 /* KXScreenHelper.h */; };
-		0A5BBAAD1E84D2E200139615 /* KXScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BBAAB1E84D2E200139615 /* KXScreenHelper.m */; };
 		0A5E5C3F1E896AD1001855AB /* UIColor+KXHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E5C3D1E896AD1001855AB /* UIColor+KXHex.h */; };
 		0A5E5C401E896AD1001855AB /* UIColor+KXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E5C3E1E896AD1001855AB /* UIColor+KXHex.m */; };
 		0A6474631E86AB1B00B136CF /* UIViewController+KXSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6474611E86AB1B00B136CF /* UIViewController+KXSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,23 +44,12 @@
 		0AA54CE71E83A378004D7A7F /* KXVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CB51E83A378004D7A7F /* KXVariant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54CE91E83A378004D7A7F /* KXViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CB71E83A378004D7A7F /* KXViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54CEA1E83A378004D7A7F /* KXViewAttribute.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CB81E83A378004D7A7F /* KXViewAttribute.mm */; };
-		0AA54CEB1E83A378004D7A7F /* UIView+KXFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CB91E83A378004D7A7F /* UIView+KXFrame.h */; };
-		0AA54CEC1E83A378004D7A7F /* UIView+KXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CBA1E83A378004D7A7F /* UIView+KXFrame.m */; };
 		0AA54CED1E83A378004D7A7F /* UIView+KXLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CBB1E83A378004D7A7F /* UIView+KXLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54CEE1E83A378004D7A7F /* UIView+KXLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CBC1E83A378004D7A7F /* UIView+KXLayout.mm */; };
-		0AA54CEF1E83A378004D7A7F /* KXCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CBD1E83A378004D7A7F /* KXCommon.h */; };
 		0AA54CF01E83A378004D7A7F /* KXLinearLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CBF1E83A378004D7A7F /* KXLinearLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54CF11E83A378004D7A7F /* KXLinearLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CC01E83A378004D7A7F /* KXLinearLayout.mm */; };
 		0AA54CF21E83A378004D7A7F /* KXRelativeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CC11E83A378004D7A7F /* KXRelativeLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54CF31E83A378004D7A7F /* KXRelativeLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CC21E83A378004D7A7F /* KXRelativeLayout.mm */; };
-		0AA54D021E83A378004D7A7F /* KXFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CD71E83A378004D7A7F /* KXFileHelper.h */; };
-		0AA54D031E83A378004D7A7F /* KXFileHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CD81E83A378004D7A7F /* KXFileHelper.mm */; };
-		0AA54D041E83A378004D7A7F /* KXJSONParseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CD91E83A378004D7A7F /* KXJSONParseHelper.h */; };
-		0AA54D051E83A378004D7A7F /* KXJSONParseHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CDA1E83A378004D7A7F /* KXJSONParseHelper.mm */; };
-		0AA54D061E83A378004D7A7F /* KXStringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CDB1E83A378004D7A7F /* KXStringHelper.h */; };
-		0AA54D071E83A378004D7A7F /* KXStringHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CDC1E83A378004D7A7F /* KXStringHelper.mm */; };
-		0AA54D081E83A378004D7A7F /* KXUnitHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54CDD1E83A378004D7A7F /* KXUnitHelper.h */; };
-		0AA54D091E83A378004D7A7F /* KXUnitHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54CDE1E83A378004D7A7F /* KXUnitHelper.mm */; };
 		0AA54D0C1E83A467004D7A7F /* KXBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA54D0A1E83A467004D7A7F /* KXBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA54D0D1E83A467004D7A7F /* KXBuilder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA54D0B1E83A467004D7A7F /* KXBuilder.mm */; };
 		0AA54D101E83A742004D7A7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA54D0F1E83A742004D7A7F /* UIKit.framework */; };
@@ -57,6 +57,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3D3B2E1E8A0864003651E5 /* UIView+KXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KXFrame.h"; sourceTree = "<group>"; };
+		0A3D3B2F1E8A0864003651E5 /* UIView+KXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KXFrame.m"; sourceTree = "<group>"; };
+		0A3D3B311E8A0864003651E5 /* KXFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXFileHelper.h; sourceTree = "<group>"; };
+		0A3D3B321E8A0864003651E5 /* KXFileHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXFileHelper.mm; sourceTree = "<group>"; };
+		0A3D3B331E8A0864003651E5 /* KXJSONParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXJSONParseHelper.h; sourceTree = "<group>"; };
+		0A3D3B341E8A0864003651E5 /* KXJSONParseHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXJSONParseHelper.mm; sourceTree = "<group>"; };
+		0A3D3B351E8A0864003651E5 /* KXScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXScreenHelper.h; sourceTree = "<group>"; };
+		0A3D3B361E8A0864003651E5 /* KXScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXScreenHelper.m; sourceTree = "<group>"; };
+		0A3D3B371E8A0864003651E5 /* KXStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXStringHelper.h; sourceTree = "<group>"; };
+		0A3D3B381E8A0864003651E5 /* KXStringHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXStringHelper.mm; sourceTree = "<group>"; };
+		0A3D3B391E8A0864003651E5 /* KXUnitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXUnitHelper.h; sourceTree = "<group>"; };
+		0A3D3B3A1E8A0864003651E5 /* KXUnitHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXUnitHelper.mm; sourceTree = "<group>"; };
+		0A3D3B3B1E8A0864003651E5 /* KXCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXCommon.h; sourceTree = "<group>"; };
 		0A507AF21E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+KXSwizzling.h"; sourceTree = "<group>"; };
 		0A507AF31E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+KXSwizzling.m"; sourceTree = "<group>"; };
 		0A507AF61E88EDD50091C0F1 /* KXJsonSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXJsonSharedCache.h; sourceTree = "<group>"; };
@@ -65,8 +78,6 @@
 		0A507AFB1E88EF870091C0F1 /* KXViewHandlerManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXViewHandlerManager.mm; sourceTree = "<group>"; };
 		0A5BBAA61E84CF1600139615 /* UIColor+KXBrightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KXBrightness.h"; sourceTree = "<group>"; };
 		0A5BBAA71E84CF1600139615 /* UIColor+KXBrightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KXBrightness.m"; sourceTree = "<group>"; };
-		0A5BBAAA1E84D2E200139615 /* KXScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXScreenHelper.h; sourceTree = "<group>"; };
-		0A5BBAAB1E84D2E200139615 /* KXScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXScreenHelper.m; sourceTree = "<group>"; };
 		0A5E5C3D1E896AD1001855AB /* UIColor+KXHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KXHex.h"; sourceTree = "<group>"; };
 		0A5E5C3E1E896AD1001855AB /* UIColor+KXHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KXHex.m"; sourceTree = "<group>"; };
 		0A6474611E86AB1B00B136CF /* UIViewController+KXSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KXSwizzling.h"; sourceTree = "<group>"; };
@@ -85,23 +96,12 @@
 		0AA54CB51E83A378004D7A7F /* KXVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXVariant.h; sourceTree = "<group>"; };
 		0AA54CB71E83A378004D7A7F /* KXViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXViewAttribute.h; sourceTree = "<group>"; };
 		0AA54CB81E83A378004D7A7F /* KXViewAttribute.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXViewAttribute.mm; sourceTree = "<group>"; };
-		0AA54CB91E83A378004D7A7F /* UIView+KXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KXFrame.h"; sourceTree = "<group>"; };
-		0AA54CBA1E83A378004D7A7F /* UIView+KXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KXFrame.m"; sourceTree = "<group>"; };
 		0AA54CBB1E83A378004D7A7F /* UIView+KXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KXLayout.h"; sourceTree = "<group>"; };
 		0AA54CBC1E83A378004D7A7F /* UIView+KXLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIView+KXLayout.mm"; sourceTree = "<group>"; };
-		0AA54CBD1E83A378004D7A7F /* KXCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXCommon.h; sourceTree = "<group>"; };
 		0AA54CBF1E83A378004D7A7F /* KXLinearLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXLinearLayout.h; sourceTree = "<group>"; };
 		0AA54CC01E83A378004D7A7F /* KXLinearLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXLinearLayout.mm; sourceTree = "<group>"; };
 		0AA54CC11E83A378004D7A7F /* KXRelativeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXRelativeLayout.h; sourceTree = "<group>"; };
 		0AA54CC21E83A378004D7A7F /* KXRelativeLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXRelativeLayout.mm; sourceTree = "<group>"; };
-		0AA54CD71E83A378004D7A7F /* KXFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXFileHelper.h; sourceTree = "<group>"; };
-		0AA54CD81E83A378004D7A7F /* KXFileHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXFileHelper.mm; sourceTree = "<group>"; };
-		0AA54CD91E83A378004D7A7F /* KXJSONParseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXJSONParseHelper.h; sourceTree = "<group>"; };
-		0AA54CDA1E83A378004D7A7F /* KXJSONParseHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXJSONParseHelper.mm; sourceTree = "<group>"; };
-		0AA54CDB1E83A378004D7A7F /* KXStringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXStringHelper.h; sourceTree = "<group>"; };
-		0AA54CDC1E83A378004D7A7F /* KXStringHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXStringHelper.mm; sourceTree = "<group>"; };
-		0AA54CDD1E83A378004D7A7F /* KXUnitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXUnitHelper.h; sourceTree = "<group>"; };
-		0AA54CDE1E83A378004D7A7F /* KXUnitHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXUnitHelper.mm; sourceTree = "<group>"; };
 		0AA54D0A1E83A467004D7A7F /* KXBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXBuilder.h; sourceTree = "<group>"; };
 		0AA54D0B1E83A467004D7A7F /* KXBuilder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KXBuilder.mm; sourceTree = "<group>"; };
 		0AA54D0F1E83A742004D7A7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -122,6 +122,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3D3B2C1E8A0864003651E5 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D3B2D1E8A0864003651E5 /* Base */,
+				0A3D3B301E8A0864003651E5 /* Helper */,
+				0A3D3B3B1E8A0864003651E5 /* KXCommon.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0A3D3B2D1E8A0864003651E5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D3B2E1E8A0864003651E5 /* UIView+KXFrame.h */,
+				0A3D3B2F1E8A0864003651E5 /* UIView+KXFrame.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0A3D3B301E8A0864003651E5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D3B311E8A0864003651E5 /* KXFileHelper.h */,
+				0A3D3B321E8A0864003651E5 /* KXFileHelper.mm */,
+				0A3D3B331E8A0864003651E5 /* KXJSONParseHelper.h */,
+				0A3D3B341E8A0864003651E5 /* KXJSONParseHelper.mm */,
+				0A3D3B351E8A0864003651E5 /* KXScreenHelper.h */,
+				0A3D3B361E8A0864003651E5 /* KXScreenHelper.m */,
+				0A3D3B371E8A0864003651E5 /* KXStringHelper.h */,
+				0A3D3B381E8A0864003651E5 /* KXStringHelper.mm */,
+				0A3D3B391E8A0864003651E5 /* KXUnitHelper.h */,
+				0A3D3B3A1E8A0864003651E5 /* KXUnitHelper.mm */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		0A5BBAA51E84CF1600139615 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,8 +195,8 @@
 		0AA54CA31E83A31E004D7A7F /* KXJsonUI_ios */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D3B2C1E8A0864003651E5 /* Private */,
 				0A5BBAA51E84CF1600139615 /* Additions */,
-				0AA54CBD1E83A378004D7A7F /* KXCommon.h */,
 				0A507AFA1E88EF870091C0F1 /* KXViewHandlerManager.h */,
 				0A507AFB1E88EF870091C0F1 /* KXViewHandlerManager.mm */,
 				0A507AF61E88EDD50091C0F1 /* KXJsonSharedCache.h */,
@@ -170,7 +206,6 @@
 				0AA54CA41E83A31E004D7A7F /* KXJsonUI_ios.h */,
 				0AA54CAE1E83A378004D7A7F /* Base */,
 				0AA54CBE1E83A378004D7A7F /* Component */,
-				0AA54CD61E83A378004D7A7F /* Helper */,
 				0AA54CA51E83A31E004D7A7F /* Info.plist */,
 			);
 			path = KXJsonUI_ios;
@@ -188,8 +223,6 @@
 				0AA54CB51E83A378004D7A7F /* KXVariant.h */,
 				0AA54CB71E83A378004D7A7F /* KXViewAttribute.h */,
 				0AA54CB81E83A378004D7A7F /* KXViewAttribute.mm */,
-				0AA54CB91E83A378004D7A7F /* UIView+KXFrame.h */,
-				0AA54CBA1E83A378004D7A7F /* UIView+KXFrame.m */,
 				0AA54CBB1E83A378004D7A7F /* UIView+KXLayout.h */,
 				0AA54CBC1E83A378004D7A7F /* UIView+KXLayout.mm */,
 			);
@@ -205,23 +238,6 @@
 				0AA54CC21E83A378004D7A7F /* KXRelativeLayout.mm */,
 			);
 			path = Component;
-			sourceTree = "<group>";
-		};
-		0AA54CD61E83A378004D7A7F /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				0AA54CD71E83A378004D7A7F /* KXFileHelper.h */,
-				0AA54CD81E83A378004D7A7F /* KXFileHelper.mm */,
-				0AA54CD91E83A378004D7A7F /* KXJSONParseHelper.h */,
-				0AA54CDA1E83A378004D7A7F /* KXJSONParseHelper.mm */,
-				0AA54CDB1E83A378004D7A7F /* KXStringHelper.h */,
-				0AA54CDC1E83A378004D7A7F /* KXStringHelper.mm */,
-				0AA54CDD1E83A378004D7A7F /* KXUnitHelper.h */,
-				0AA54CDE1E83A378004D7A7F /* KXUnitHelper.mm */,
-				0A5BBAAA1E84D2E200139615 /* KXScreenHelper.h */,
-				0A5BBAAB1E84D2E200139615 /* KXScreenHelper.m */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		0AA54D0E1E83A742004D7A7F /* Frameworks */ = {
@@ -241,29 +257,29 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA54CEF1E83A378004D7A7F /* KXCommon.h in Headers */,
-				0AA54D021E83A378004D7A7F /* KXFileHelper.h in Headers */,
 				0A6474791E86B77300B136CF /* UITableViewCell+KXSwizzling.h in Headers */,
+				0A3D3B401E8A0864003651E5 /* KXJSONParseHelper.h in Headers */,
 				0AA54CED1E83A378004D7A7F /* UIView+KXLayout.h in Headers */,
-				0AA54CEB1E83A378004D7A7F /* UIView+KXFrame.h in Headers */,
-				0A5BBAAC1E84D2E200139615 /* KXScreenHelper.h in Headers */,
 				0AA54CE31E83A378004D7A7F /* KXLinearLayoutParams.h in Headers */,
+				0A3D3B481E8A0864003651E5 /* KXCommon.h in Headers */,
 				0AA54CE11E83A378004D7A7F /* KXLayoutParams.h in Headers */,
+				0A3D3B3C1E8A0864003651E5 /* UIView+KXFrame.h in Headers */,
+				0A3D3B441E8A0864003651E5 /* KXStringHelper.h in Headers */,
 				0A6474631E86AB1B00B136CF /* UIViewController+KXSwizzling.h in Headers */,
 				0AA54CE51E83A378004D7A7F /* KXRelativeLayoutParams.h in Headers */,
 				0AA54CE71E83A378004D7A7F /* KXVariant.h in Headers */,
+				0A3D3B461E8A0864003651E5 /* KXUnitHelper.h in Headers */,
+				0A3D3B3E1E8A0864003651E5 /* KXFileHelper.h in Headers */,
 				0AA54CE91E83A378004D7A7F /* KXViewAttribute.h in Headers */,
 				0A507AFC1E88EF870091C0F1 /* KXViewHandlerManager.h in Headers */,
-				0AA54D061E83A378004D7A7F /* KXStringHelper.h in Headers */,
 				0A507AF41E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.h in Headers */,
+				0A3D3B421E8A0864003651E5 /* KXScreenHelper.h in Headers */,
 				0A5BBAA81E84CF1600139615 /* UIColor+KXBrightness.h in Headers */,
 				0AA54D0C1E83A467004D7A7F /* KXBuilder.h in Headers */,
 				0A507AF81E88EDD50091C0F1 /* KXJsonSharedCache.h in Headers */,
 				0AA54CA61E83A31E004D7A7F /* KXJsonUI_ios.h in Headers */,
-				0AA54D081E83A378004D7A7F /* KXUnitHelper.h in Headers */,
 				0AA54CF21E83A378004D7A7F /* KXRelativeLayout.h in Headers */,
 				0A5E5C3F1E896AD1001855AB /* UIColor+KXHex.h in Headers */,
-				0AA54D041E83A378004D7A7F /* KXJSONParseHelper.h in Headers */,
 				0AA54CF01E83A378004D7A7F /* KXLinearLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,25 +353,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA54CE41E83A378004D7A7F /* KXLinearLayoutParams.mm in Sources */,
-				0AA54D071E83A378004D7A7F /* KXStringHelper.mm in Sources */,
 				0A507AFD1E88EF870091C0F1 /* KXViewHandlerManager.mm in Sources */,
 				0A5E5C401E896AD1001855AB /* UIColor+KXHex.m in Sources */,
 				0AA54D0D1E83A467004D7A7F /* KXBuilder.mm in Sources */,
 				0AA54CE21E83A378004D7A7F /* KXLayoutParams.mm in Sources */,
-				0AA54CEC1E83A378004D7A7F /* UIView+KXFrame.m in Sources */,
-				0AA54D051E83A378004D7A7F /* KXJSONParseHelper.mm in Sources */,
 				0A507AF51E88C53D0091C0F1 /* UICollectionViewCell+KXSwizzling.m in Sources */,
+				0A3D3B411E8A0864003651E5 /* KXJSONParseHelper.mm in Sources */,
 				0AA54CE61E83A378004D7A7F /* KXRelativeLayoutParams.mm in Sources */,
 				0AA54CF31E83A378004D7A7F /* KXRelativeLayout.mm in Sources */,
+				0A3D3B431E8A0864003651E5 /* KXScreenHelper.m in Sources */,
 				0A64747A1E86B77300B136CF /* UITableViewCell+KXSwizzling.m in Sources */,
-				0A5BBAAD1E84D2E200139615 /* KXScreenHelper.m in Sources */,
+				0A3D3B451E8A0864003651E5 /* KXStringHelper.mm in Sources */,
 				0AA54CEA1E83A378004D7A7F /* KXViewAttribute.mm in Sources */,
-				0AA54D091E83A378004D7A7F /* KXUnitHelper.mm in Sources */,
-				0AA54D031E83A378004D7A7F /* KXFileHelper.mm in Sources */,
 				0AA54CF11E83A378004D7A7F /* KXLinearLayout.mm in Sources */,
 				0A507AF91E88EDD50091C0F1 /* KXJsonSharedCache.mm in Sources */,
 				0AA54CEE1E83A378004D7A7F /* UIView+KXLayout.mm in Sources */,
+				0A3D3B3D1E8A0864003651E5 /* UIView+KXFrame.m in Sources */,
 				0A6474641E86AB1B00B136CF /* UIViewController+KXSwizzling.m in Sources */,
+				0A3D3B471E8A0864003651E5 /* KXUnitHelper.mm in Sources */,
+				0A3D3B3F1E8A0864003651E5 /* KXFileHelper.mm in Sources */,
 				0A5BBAA91E84CF1600139615 /* UIColor+KXBrightness.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

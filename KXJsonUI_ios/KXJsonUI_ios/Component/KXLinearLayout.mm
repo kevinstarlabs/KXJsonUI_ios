@@ -21,7 +21,7 @@
 
 #import "KXLinearLayout.h"
 #import "KXRelativeLayout.h"
-#import "../KXCommon.h"
+#import "KXCommon.h"
 #import "UIView+KXFrame.h"
 
 #import <QuartzCore/QuartzCore.h>

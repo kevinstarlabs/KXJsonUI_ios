@@ -21,9 +21,9 @@
 
 #import "UIView+KXLayout.h"
 #import "UIView+KXFrame.h"
-#import "../Component/KXLinearLayout.h"
-#import "../Component/KXRelativeLayout.h"
-#import "../KXCommon.h"
+#import "KXLinearLayout.h"
+#import "KXRelativeLayout.h"
+#import "KXCommon.h"
 #import <objc/runtime.h>
 #include <queue>
 

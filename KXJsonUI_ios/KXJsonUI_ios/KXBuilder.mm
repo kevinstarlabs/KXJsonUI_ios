@@ -23,16 +23,16 @@
 #import "KXBuilder.h"
 #import "KXCommon.h"
 #import "KXFileHelper.h"
-#import "Helper/KXJSONParseHelper.h"
-#import "Helper/KXStringHelper.h"
-#import "Helper/KXFileHelper.h"
+#import "KXJSONParseHelper.h"
+#import "KXStringHelper.h"
+#import "KXFileHelper.h"
 #import "UIView+KXFrame.h"
 #import "UIView+KXLayout.h"
-#import "Component/KXLinearLayout.h"
-#import "Component/KXRelativeLayout.h"
+#import "KXLinearLayout.h"
+#import "KXRelativeLayout.h"
 
-#import "Additions/UIColor+KXHex.h"
-#import "Additions/UIColor+KXBrightness.h"
+#import "UIColor+KXHex.h"
+#import "UIColor+KXBrightness.h"
 
 #include <queue>
 #include <vector>

@@ -1,22 +1,23 @@
-Pod::Spec.new do |spec|
-  spec.name = "KXJsonUI"
-  spec.version = "0.8.0"
+Pod::Spec.new do |s|
+  s.name = "KXJsonUI"
+  s.version = "0.8.0"
 
-  spec.homepage = "https://github.com/kxzen/KXJsonUI_ios"
-  spec.summary = "powerful Json UI layout framework for iOS"
+  s.homepage = "https://github.com/kxzen/KXJsonUI_ios"
+  s.summary = "powerful Json UI layout framework for iOS"
 
-  spec.author = { 'kxzen' => 'kevinapp38@gmail.com' }
-  spec.license = { :type => "MIT", :file => "LICENSE.md" }
+  s.author = { 'kxzen' => 'kevinapp38@gmail.com' }
+  s.license = { :type => "MIT", :file => "LICENSE.md" }
   
-  spec.platform = :ios, '8.0'
-  spec.ios.deployment_target = '8.0'
+  s.platform = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
 
-  spec.source = { :git => "https://github.com/kxzen/KXJsonUI_ios.git", :tag => spec.version }
+  s.source = { :git => "https://github.com/kxzen/KXJsonUI_ios.git", :tag => s.version }
 
-  spec.requires_arc = true
+  s.requires_arc = true
 
-  spec.source_files = 'KXJsonUI_ios/KXJsonUI_ios/**/*'
-  spec.public_header_files = 'KXJsonUI_ios/Pod/PublicHeaders/**/*.h'
-  spec.frameworks = 'UIKit', 'QuartzCore'
-  spec.requires_arc = true
+  s.source_files = 'KXJsonUI_ios/KXJsonUI_ios/**/*.{h,m,mm}'
+  s.public_header_files = 'KXJsonUI_ios/KXJsonUI_ios/**/*.h'
+  s.private_header_files = 'KXJsonUI_ios/KXJsonUI_ios/Private/**/*.h'
+  s.frameworks = 'UIKit', 'QuartzCore'
+  s.requires_arc = true
 end

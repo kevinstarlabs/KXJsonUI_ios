@@ -21,8 +21,8 @@
 
 #import "KXRelativeLayout.h"
 #import "KXLinearLayout.h"
-#import "../KXCommon.h"
-#import "../Base/UIView+KXFrame.h"
+#import "KXCommon.h"
+#import "UIView+KXFrame.h"
 
 #include <vector>
 #include <map>
@@ -45,7 +45,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // initialize...
     }
     return self;
 }

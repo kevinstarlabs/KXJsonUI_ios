@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "KXJsonSharedCache.h"
-#import "Base/KXVariant.h"
+#import "KXVariant.h"
 
 #define registerAttributeDataType(x,y) ([self registerAttributeDataTypeForName:@x dataType:@y])
 
