@@ -41,7 +41,7 @@ pod 'KXJsonUI'
 
 ## Include the header
 ```
-#import <KXJsonUI_ios/KXJsonUI_ios.h>
+#import "KXJsonUI_ios.h"
 ``` 
 ## Load UI from a JSON file
 
