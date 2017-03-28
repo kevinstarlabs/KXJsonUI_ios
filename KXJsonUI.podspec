@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "KXJsonUI"
-  s.version = "0.8.3"
+  s.version = "0.8.4"
 
   s.homepage = "https://github.com/kxzen/KXJsonUI_ios"
   s.summary = "powerful Json UI layout framework for iOS"
