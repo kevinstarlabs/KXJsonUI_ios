@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "KXJsonUI"
-  s.version = "0.8.2"
+  s.version = "0.8.3"
 
   s.homepage = "https://github.com/kxzen/KXJsonUI_ios"
   s.summary = "powerful Json UI layout framework for iOS"
@@ -20,4 +20,9 @@ Pod::Spec.new do |s|
   s.private_header_files = 'KXJsonUI_ios/KXJsonUI_ios/Private/**/*.h'
   s.frameworks = 'UIKit', 'QuartzCore'
   s.requires_arc = true
+  s.library = 'c++'
+  s.xcconfig = {
+       'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+       'CLANG_CXX_LIBRARY' => 'libc++'
+  }
 end
