@@ -146,15 +146,21 @@
 }
 
 
-+(void) registerViewHandlerForWidget:(NSString *)widget
-                          onCreation:(KXViewConfigureHandler) creationHandler
-                             onSetup:(KXViewConfigureHandler) setupHandler
++(void) registerViewHandlerForWidget:(NSString * _Nonnull)widget
+                          onCreation:(KXViewConfigureHandler _Nonnull) creationHandler
+                             onSetup:(KXViewConfigureHandler _Nonnull) setupHandler
 {
     // make sure we are adding its copy from heap, not from stack.
     KXViewConfigureHandler handler1 = [creationHandler copy];
     [[KXViewHandlerManager sharedManager] addCreationHandler:handler1 forWidget:widget];
     KXViewConfigureHandler handler2 = [setupHandler copy];
     [[KXViewHandlerManager sharedManager] addSetupHandler:handler2 forWidget:widget];
+}
+
++(void) unregisterViewHandlerForWidget:(NSString * _Nonnull)widget
+{
+    [[KXViewHandlerManager sharedManager] removeCreationHandlerForWidget:widget];
+    [[KXViewHandlerManager sharedManager] removeSetupHandlerForWidget:widget];
 }
 
 +(void) basicSetup
@@ -570,7 +576,8 @@
     }
     if( item[@"attr"] != nil ) {
         NSArray *jsonProperties = item[@"attr"];
-        for( int i = 0 ; i < [jsonProperties count] ; ++i ){
+        
+        for( NSInteger i = 0 ; i < [jsonProperties count] ; ++i ){
             
             NSString *name =  jsonProperties[i][@"name"];
             

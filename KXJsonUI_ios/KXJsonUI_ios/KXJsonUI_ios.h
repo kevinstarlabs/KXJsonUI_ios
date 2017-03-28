@@ -31,7 +31,8 @@ FOUNDATION_EXPORT const unsigned char KXJsonUI_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KXJsonUI_ios/PublicHeader.h>
 
-#import <KXJsonUI_ios/KXBuilder.h>
+//#import <KXJsonUI_ios/KXBuilder.h>
+#import "KXBuilder.h"
 #else
 #import "KXBuilder.h"
 #endif

@@ -75,9 +75,13 @@
         UIEdgeInsets margins = UIEdgeInsetsZero;
         margins = params.margins;
         NSValue *dynamicMeasuredSize = nil;
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
         if( [v respondsToSelector:@selector(measuredSize)] ){
             dynamicMeasuredSize = (NSValue *)[v performSelector:@selector(measuredSize) withObject:nil];
         }
+#pragma clang diagnostic pop        
         
         // Adjust size
         if( v.kxIngoreSizeAdjustment == NO ){

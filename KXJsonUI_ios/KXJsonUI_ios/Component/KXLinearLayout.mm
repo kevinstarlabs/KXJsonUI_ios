@@ -86,8 +86,6 @@
     int wSum = 0;
     float SW = self.width;
     float SH = self.height;
-    float S_LEFT = 0;
-    float S_TOP = 0;
     double heightSum = SH;
 
     UIView *lastWeightedView = nil;
@@ -107,9 +105,13 @@
         UIEdgeInsets margins = UIEdgeInsetsZero;
         margins = params.margins;
         NSValue *dynamicMeasuredSize = nil;
+        
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
         if( [v respondsToSelector:@selector(measuredSize)] ){
             dynamicMeasuredSize = (NSValue *)[v performSelector:@selector(measuredSize) withObject:nil];
         }
+#pragma clang diagnostic pop
         
         if( v.kxIngoreSizeAdjustment == NO ){
             if( params.width == KX_MATCHPARENT ){
@@ -239,8 +241,6 @@
     float SW = self.width;
     float SH = self.height;
     
-    float S_LEFT = 0;
-    float S_TOP = 0;
     double widthSum = SW;
     for( UIView *v: list ){
         KXLinearLayoutParams *params = v.kxLinearParams;
@@ -255,9 +255,12 @@
         margins = params.margins;
         
         NSValue *dynamicMeasuredSize = nil;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
         if( [v respondsToSelector:@selector(measuredSize)] ){
             dynamicMeasuredSize = (NSValue *)[v performSelector:@selector(measuredSize) withObject:nil];
         }
+#pragma clang diagnostic pop        
         
         if( v.kxIngoreSizeAdjustment == NO ){
             if( params.width == KX_MATCHPARENT ){

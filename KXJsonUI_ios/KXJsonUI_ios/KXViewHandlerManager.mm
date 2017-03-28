@@ -61,6 +61,16 @@
     [self.viewSetupHandler setObject:handler forKey:name];
 }
 
+-(void) removeCreationHandlerForWidget:(NSString *)name
+{
+    [self.viewCreationHandler removeObjectForKey:name];
+}
+
+-(void) removeSetupHandlerForWidget:(NSString *)name
+{
+    [self.viewSetupHandler removeObjectForKey:name];
+}
+
 -(KXViewConfigureHandler) getCreationHandlerForWidget:(NSString *)name
 {
     return self.viewCreationHandler[name];

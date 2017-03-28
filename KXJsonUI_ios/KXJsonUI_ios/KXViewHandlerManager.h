@@ -32,6 +32,9 @@ typedef void(^KXViewConfigureHandler)(NSString *parentWidget, KXViewAttribute *a
 -(void) addCreationHandler:(KXViewConfigureHandler) handler forWidget:(NSString *)name;
 -(void) addSetupHandler:(KXViewConfigureHandler) handler forWidget:(NSString *)name;
 
+-(void) removeCreationHandlerForWidget:(NSString *)name;
+-(void) removeSetupHandlerForWidget:(NSString *)name;
+
 -(KXViewConfigureHandler) getCreationHandlerForWidget:(NSString *)name;
 -(KXViewConfigureHandler) getSetupHandlerForWidget:(NSString *)name;
 
