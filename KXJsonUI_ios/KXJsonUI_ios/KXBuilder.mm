@@ -583,7 +583,7 @@
             
             id jsonValue = jsonProperties[i][@"value"];
             
-            const int dataType = [[KXJsonSharedCache sharedManager] attributeDataTypeForName:name];
+            const NSInteger dataType = [[KXJsonSharedCache sharedManager] attributeDataTypeForName:name];
             
             if(  dataType != -1 ){
                 
