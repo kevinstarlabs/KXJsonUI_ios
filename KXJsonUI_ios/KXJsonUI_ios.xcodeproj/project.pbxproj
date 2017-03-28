@@ -26,6 +26,7 @@
 		0A507AF91E88EDD50091C0F1 /* KXJsonSharedCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AF71E88EDD50091C0F1 /* KXJsonSharedCache.mm */; };
 		0A507AFC1E88EF870091C0F1 /* KXViewHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A507AFA1E88EF870091C0F1 /* KXViewHandlerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A507AFD1E88EF870091C0F1 /* KXViewHandlerManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A507AFB1E88EF870091C0F1 /* KXViewHandlerManager.mm */; };
+		0A533A331E8A68FB00EC7914 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA54D131E83A768004D7A7F /* libc++.tbd */; };
 		0A5BBAA81E84CF1600139615 /* UIColor+KXBrightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5BBAA61E84CF1600139615 /* UIColor+KXBrightness.h */; };
 		0A5BBAA91E84CF1600139615 /* UIColor+KXBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BBAA71E84CF1600139615 /* UIColor+KXBrightness.m */; };
 		0A5E5C3F1E896AD1001855AB /* UIColor+KXHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5E5C3D1E896AD1001855AB /* UIColor+KXHex.h */; };
@@ -114,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A533A331E8A68FB00EC7914 /* libc++.tbd in Frameworks */,
 				0AA54D121E83A747004D7A7F /* QuartzCore.framework in Frameworks */,
 				0AA54D101E83A742004D7A7F /* UIKit.framework in Frameworks */,
 			);
